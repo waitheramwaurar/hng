@@ -1,8 +1,4 @@
 import React from "react";
-// import ReactDOM from "react-dom";
-// import { BrowserRouter as Router,
-//     Switch,
-//     Route } from "react-router-dom";
 
 function Links () {
 return (
@@ -27,6 +23,35 @@ return (
                 {/* Remember to add the share icon */}
             </button>
         </div>
+
+        <div className="link">
+            <button>
+                <a href="https://books.zuri.team/" id="book__python">Python Books</a>
+                {/* Remember to add the share icon */}
+            </button>
+        </div>
+
+        <div className="link">
+            <button>
+                <a href="https://books.zuri.team/" id="book__python">Python Books</a>
+                {/* Remember to add the share icon */}
+            </button>
+        </div>
+
+        <div className="link">
+            <button>
+                <a href="https://background.zuri.team/" id="pitch">Background Check for Coders</a>
+                {/* Remember to add the share icon */}
+            </button>
+        </div>
+
+        <div className="link">
+            <button>
+                <a href="https://books.zuri.team/design-rules" id="book__design">Design Books</a>
+                {/* Remember to add the share icon */}
+            </button>
+        </div>
+
 
     </div>
 )

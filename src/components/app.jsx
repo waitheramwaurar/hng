@@ -1,7 +1,7 @@
 import React from "react";
-//import ReactDOM from "react-dom";
 import Heading from "./heading";
 import Links from "./links";
+import Socials from "./socials";
 
 function App () {
     return (
@@ -12,8 +12,10 @@ function App () {
             </div>
 
             <div className="social_section">
-
+                <Socials />
             </div>
+
+            <div className="footer"></div>
         </div>
     )
 };

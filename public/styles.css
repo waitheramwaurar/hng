@@ -259,7 +259,7 @@ body {
     flex-grow: 1;
 }
 .link button:hover {
-    
+    background-color: #dfe1e6;
 }
 .link button a {
     /* Text */
@@ -298,4 +298,98 @@ body {
 }
 #books {
     width: 92px;
+}
+#book__python {
+    width: 119px;
+}
+#pitch {
+    width: 259px;
+}
+#book__design {
+    width: 118px;
+}
+
+/* Social Section */
+
+.social_section {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0px;
+    gap: 64px;
+
+    width: 1216px;
+    height: 72px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.social_container {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 32px;
+    gap: 32px;
+
+    width: 1216px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.social_content {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    width: 1152px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.social_icons {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    width: 1152px;
+    height: 24px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
 }
